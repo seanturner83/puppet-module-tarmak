@@ -10,7 +10,7 @@ gem 'rspec-puppet'
 gem 'aws-sdk', '~> 2'
 gem 'net-ssh'
 gem 'puppet-blacksmith'
-gem 'puppet_readme_generator'
+gem 'puppet_readme_generator', '>= 0.2.0'
 gem 'rspec-retry'
 gem 'semantic_puppet'
 
