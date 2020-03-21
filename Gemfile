@@ -1,7 +1,7 @@
 source ENV['GEM_SOURCE'] || 'https://rubygems.org'
 
 puppetversion = ENV.key?('PUPPET_VERSION') ? ENV['PUPPET_VERSION'] : ['>= 4.2']
-gem 'metadata-json-lint'
+gem 'metadata-json-lint', '>= 1.2.2'
 gem 'puppet', puppetversion
 gem 'puppetlabs_spec_helper', '>= 1.0.0'
 gem 'puppet-lint', '>= 1.0.0'
@@ -18,5 +18,5 @@ gem 'semantic_puppet'
 gem 'rubocop'
 
 gem 'beaker', :git => 'https://github.com/jetstack-experimental/beaker.git', :branch => 'fix-test-rerun'
-gem 'beaker-rspec'
-gem 'beaker-puppet_install_helper'
+gem 'beaker-rspec', '>= 6.1.0'
+gem 'beaker-puppet_install_helper', '>= 0.7.1'
