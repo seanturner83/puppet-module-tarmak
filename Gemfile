@@ -18,5 +18,5 @@ gem 'semantic_puppet'
 gem 'rubocop'
 
 gem 'beaker', :git => 'https://github.com/jetstack-experimental/beaker.git', :branch => 'fix-test-rerun'
-gem 'beaker-rspec'
-gem 'beaker-puppet_install_helper'
+gem 'beaker-rspec', '>= 8.0.0'
+gem 'beaker-puppet_install_helper', '>= 0.9.6'
