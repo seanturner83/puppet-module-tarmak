@@ -15,8 +15,8 @@ gem 'rspec-retry'
 gem 'semantic_puppet'
 
 # rubocop requires ruby >= 1.9
-gem 'rubocop'
+gem 'rubocop', '>= 0.50.0'
 
 gem 'beaker', :git => 'https://github.com/jetstack-experimental/beaker.git', :branch => 'fix-test-rerun'
-gem 'beaker-rspec'
-gem 'beaker-puppet_install_helper'
+gem 'beaker-rspec', '>= 6.2.4'
+gem 'beaker-puppet_install_helper', '>= 0.9.0'
